@@ -1,8 +1,27 @@
-# Ar-En-layout-corrector
+# Ar-En Layout Corrector
 
 > Select any mistyped text, press `CapsLock`, and watch it instantly swap between Arabic and English.
 
+> حدّد النص المكتوب بالخطأ، واضغط CapsLock ليتحول فوراً بين اللغتين العربية والإنجليزية.
+
+أداة خفيفة ومستقلة لنظام ويندوز مبنية على AutoHotkey v2، تقوم بتصحيح النصوص المكتوبة باللغة الخطأ في مكانها مباشرة وبضغطة زر واحدة تلقائياً دون الحاجة لاعادة كتابة النص وبدون استهلاك موارد النظام.
+
 A zero-bloat, standalone AutoHotkey v2 exe utility (or a raw script if you prefer!) that fixes mismatched keyboard layout text in-place across any Windows application saving you from keylogging and/or background telemetry.
+
+
+| English | Arabic Error | . | Arabic | English Error |
+| --- | --- | --- | --- | --- |
+| google | لخخلمث | . | سلام | sghl |
+| facebook | بشؤثبخخن | . | شكرا | a;vh |
+| youtube | غخعفعلاث | . | تمام | jthl |
+| hello | اثممخ | . | نعم | kul |
+| hi | اه | . | لا | b |
+| ok | خن | . | صباح الخير | wfhp hgwnv |
+| thanks | فاشدنس | . | مساء الخير | lshx hgwnv |
+| yes | غثس | . | ان شاء الله | hk ahx hggi |
+| admin | شسةهد | . | حبيبي | pfdfd |
+| test | فثسف | . | اهلا | higsh |
+
 
 ---
 
