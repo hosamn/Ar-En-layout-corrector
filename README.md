@@ -27,13 +27,14 @@ A zero-bloat, standalone AutoHotkey v2 exe utility (or a raw script if you prefe
 
 ## Requirements & Setup
 
+### Running Compiled (.exe)
+- No dependencies or AutoHotkey installation required.
+- Download `AR_EN_Corrector.exe` from the releases to the right.
+- Place the downloaded file in your Windows Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to have it run automatically on boot.
+
 ### Running from Source
 - Requires **AutoHotkey v2.0+**.
 - Double-click `LayoutSwitcher.ahk` to launch.
-
-### Running Compiled (.exe)
-- No dependencies or AutoHotkey installation required.
-- Place `LayoutSwitcher.exe` in your Windows Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to run automatically on boot.
 
 ---
 
