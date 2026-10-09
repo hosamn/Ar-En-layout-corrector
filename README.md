@@ -1,6 +1,6 @@
 # Ar-En Layout Corrector
 
-> حدّد النص المكتوب بالخطأ، وبضغطة واحدة علي CapsLock يتحول فوراً بين اللغتين العربية والإنجليزية.
+> حدّد النص المكتوب بالخطأ، وبضغطة واحدة علي CapsLock يتحول فوراً من العربية للإنجليزية والعكس!
 
 أداة خفيفة ومستقلة لنظام ويندوز مبنية على AutoHotkey v2، تقوم بتصحيح النصوص المكتوبة باللغة الخطأ في مكانها مباشرة وبضغطة زر واحدة تلقائياً دون الحاجة لاعادة كتابة النص وبدون استهلاك موارد النظام.
 
@@ -9,18 +9,18 @@
 A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer!) that fixes mismatched AR/EN keyboard inputs in-place across any Windows application saving you lots of re-writes.
 
 
-| English | Arabic Error |   |   | Arabic | English Error |
-| --- | --- | --- | --- | ---| --- |
-| google | لخخلمث |   |   | سلام | sghl |
-| facebook | بشؤثبخخن |   |   | شكرا | a;vh |
-| youtube | غخعفعلاث |   |   | تمام | jthl |
-| hello | اثممخ |   |   | نعم | kul |
-| hi | اه |   |   | لا | b |
-| ok | خن |   |   | صباح الخير | wfhp hgwnv |
-| thanks | فاشدنس |   |   | مساء الخير | lshx hgwnv |
-| yes | غثس |   |   | ان شاء الله | hk ahx hggi |
-| admin | شسةهد |   |   | حبيبي | pfdfd |
-| test | فثسف |   |   | اهلا | higsh |
+| Arabic Error | English | │ | │ | English Error | Arabic |
+| :--- | :--- | :---: | :---: | :--- | :--- |
+| لخخلمث | google | │ | │ | sghl | سلام |
+| بشؤثلاخخن | facebook | │ | │ | a;vh | شكرا |
+| غخعفعلاث | youtube | │ | │ | jlhl | تمام |
+| اثممخ | hello | │ | │ | kul | نعم |
+| اه | hi | │ | │ | b | لا |
+| خن | ok | │ | │ | wfhp hgodv | صباح الخير |
+| فاشىنس | thanks | │ | │ | lshx hgodv | مساء الخير |
+| غثس | yes | │ | │ | hk ahx hggi | ان شاء الله |
+| شيةهى | admin | │ | │ | pfdfd | حبيبي |
+| فثسف | test | │ | │ | high | اهلا |
 
 
 ---
@@ -37,7 +37,7 @@ A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer
 ## How to Use It
 
 1. **Highlight** any text mistyped in the wrong layout:
-   - Example: `أثممخ` $\rightarrow$ `hello`
+   - Example: `اثممخ` $\rightarrow$ `hello`
    - Example: `sghl` $\rightarrow$ `سلام`
 2. Press **`CapsLock`**.
 3. The selected text is instantly replaced with the correct layout characters.
@@ -91,10 +91,9 @@ CapsLock::
 
 ## Layout Mapping Table
 
+- **Ligatures**: `b` $\leftrightarrow$ `لا`, `B` $\leftrightarrow$ `لآ`, `T` $\leftrightarrow$ `لإ`, `G` $\leftrightarrow$ `لأ` are handled seamlessly in both directions (including compatibility precomposed ligatures `ﻻ`, `ﻵ`, `ﻹ`, `ﻷ`).
+- **Numbers**: Digits (`0-9`) remain untouched.
+
 |q|w|e|r|t|y|u|i|o|p|[|]|a|s|d|f|g|h|j|k|l|;|'|z|x|c|v|b|n|m|,|.|/|`|Q|W|E|R|T|Y|U|I|O|P|{|}|A|S|D|F|G|H|J|K|L|:|`"|Z|X|C|V|B|N|M|<|>|?|~|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |ض|ص|ث|ق|ف|غ|ع|ه|خ|ح|ج|د|ش|س|ي|ب|ل|ا|ت|ن|م|ك|ط|ئ|ء|ؤ|ر|لا|ى|ة|و|ز|ظ|ذ|َ|ً|ُ|ٌ|لإ|إ|‘|÷|×|؛|<|>|ِ|ٍ|]|[|لأ|أ|ـ|،|/|:|"|~|ْ|}|{|لآ|آ|’|,|.|؟|ّ|
-
-> [!NOTE]
-> - **Ligatures**: `b` $\leftrightarrow$ `لا`, `B` $\leftrightarrow$ `لآ`, `T` $\leftrightarrow$ `لإ`, `G` $\leftrightarrow$ `لأ` are handled seamlessly in both directions (including compatibility precomposed ligatures `ﻻ`, `ﻵ`, `ﻹ`, `ﻷ`).
-> - **Numbers**: Digits (`0-9`) remain untouched.
