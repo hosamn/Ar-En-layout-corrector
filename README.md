@@ -55,6 +55,9 @@ A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer
 - Requires **AutoHotkey v2.0+**.
 - Double-click `AR_EN_Corrector.ahk` to launch.
 
+### Running Tests
+- Run `tests/test_corrector.ahk` with AutoHotkey v2 to execute the test suite (74 automated assertions).
+
 ---
 
 ## How It Works
