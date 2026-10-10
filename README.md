@@ -1,12 +1,12 @@
 # Ar-En Layout Corrector
 
-> حدّد النص المكتوب بالخطأ، وبضغطة واحدة علي CapsLock يتحول فوراً من العربية للإنجليزية والعكس!
+حدّد النص المكتوب بالخطأ، وبضغطة واحدة علي CapsLock يتحول فوراً من العربية للإنجليزية والعكس!
 
-أداة خفيفة ومستقلة لنظام ويندوز مبنية على AutoHotkey v2، تقوم بتصحيح النصوص المكتوبة باللغة الخطأ في مكانها مباشرة وبضغطة زر واحدة تلقائياً دون الحاجة لاعادة كتابة النص وبدون استهلاك موارد النظام.
+> أداة خفيفة ومستقلة لنظام ويندوز مبنية على AutoHotkey v2، تقوم بتصحيح النصوص المكتوبة باللغة الخطأ في مكانها مباشرة وبضغطة زر واحدة تلقائياً دون الحاجة لاعادة كتابة النص وبدون استهلاك موارد النظام.
 
-> Select any mistyped text, press `CapsLock`, and watch it instantly swap between Arabic and English.
+Select any mistyped text, press `CapsLock`, and watch it instantly swap between Arabic and English.
 
-A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer!) that fixes mismatched AR/EN keyboard inputs in-place across any Windows application saving you lots of re-writes.
+> A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer!) that fixes mismatched AR/EN keyboard inputs in-place across any Windows application saving you lots of re-writes.
 
 
 | Arabic Error | English | │ | │ | English Error | Arabic |
