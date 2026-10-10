@@ -1,3 +1,5 @@
+![](media\ico\ar_en.png)
+
 # Ar-En Layout Corrector
 
 حدّد النص المكتوب بالخطأ، وبضغطة واحدة علي CapsLock يتحول فوراً من العربية للإنجليزية والعكس!
@@ -47,9 +49,9 @@ Select any mistyped text, press `CapsLock`, and watch it instantly swap between 
 ## Requirements & Setup
 
 ### Running Compiled (.exe)
-- No dependencies or AutoHotkey installation required.
-- Download `AR_EN_Corrector.exe` from the releases to the right.
-- Place the downloaded file in your Windows Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to have it run automatically on boot.
+- Just download `AR_EN_Corrector.exe` from the [releases](https://github.com/hosamn/Ar-En-layout-corrector/releases) page.
+- Run it, or even better:
+   - place the downloaded file in your Windows Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to have it run automatically on boot.
 
 ### Running from Source
 - Requires **AutoHotkey v2.0+**.
