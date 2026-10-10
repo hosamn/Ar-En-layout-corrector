@@ -11,18 +11,18 @@ Select any mistyped text, press `CapsLock`, and watch it instantly swap between 
 > A zero-bloat, standalone lean & clean utility (or a raw AHK script if you prefer!) that fixes mismatched AR/EN keyboard inputs in-place across any Windows application saving you lots of re-writes.
 
 
-| Arabic Error | English | │ | │ | English Error | Arabic |
-| :--- | :--- | :---: | :---: | :--- | :--- |
-| لخخلمث | google | │ | │ | sghl | سلام |
-| بشؤثلاخخن | facebook | │ | │ | a;vh | شكرا |
-| غخعفعلاث | youtube | │ | │ | jlhl | تمام |
-| اثممخ | hello | │ | │ | kul | نعم |
-| اه | hi | │ | │ | b | لا |
-| خن | ok | │ | │ | wfhp hgodv | صباح الخير |
-| فاشىنس | thanks | │ | │ | lshx hgodv | مساء الخير |
-| غثس | yes | │ | │ | hk ahx hggi | ان شاء الله |
-| شيةهى | admin | │ | │ | pfdfd | حبيبي |
-| فثسف | test | │ | │ | high | اهلا |
+| Arabic Error | English | ││ | English Error | Arabic |
+| :--- | :--- | :---: | ---: | ---: |
+| لخخلمث | google | ││ | sghl | سلام |
+| بشؤثلاخخن | facebook | ││ | a;vh | شكرا |
+| غخعفعلاث | youtube | ││ | jlhl | تمام |
+| اثممخ | hello | ││ | kul | نعم |
+| اه | hi | ││ | b | لا |
+| خن | ok | ││ | wfhp hgodv | صباح الخير |
+| فاشىنس | thanks | ││ | lshx hgodv | مساء الخير |
+| غثس | yes | ││ | hk ahx hggi | ان شاء الله |
+| شيةهى | admin | ││ | pfdfd | حبيبي |
+| فثسف | test | ││ | high | اهلا |
 
 
 ---
@@ -38,11 +38,11 @@ Select any mistyped text, press `CapsLock`, and watch it instantly swap between 
 
 ## How to Use It
 
-1. **Highlight** any text mistyped in the wrong layout:
-   - Example: `اثممخ` $\rightarrow$ `hello`
-   - Example: `sghl` $\rightarrow$ `سلام`
+1. **Highlight** any text mistyped in the wrong layout.
 2. Press **`CapsLock`**.
 3. The selected text is instantly replaced with the correct layout characters.
+   - Example: `اثممخ` $\rightarrow$ `hello`
+   - Example: `sghl` $\rightarrow$ `سلام`
 
 ---
 
@@ -51,7 +51,7 @@ Select any mistyped text, press `CapsLock`, and watch it instantly swap between 
 ### Running Compiled (.exe)
 - Just download `AR_EN_Corrector.exe` from the [releases](https://github.com/hosamn/Ar-En-layout-corrector/releases) page.
 - Run it, or even better:
-   - place the downloaded file in your Windows Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to have it run automatically on boot.
+   - place it in your Startup folder (`Win + R` $\rightarrow$ `shell:startup`) to have the app run automatically on boot.
 
 ### Running from Source
 - Requires **AutoHotkey v2.0+**.
